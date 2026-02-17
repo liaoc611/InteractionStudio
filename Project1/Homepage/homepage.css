@@ -25,7 +25,7 @@ body {
 }
 
 .ascii-canvas {
-  width: 5000px; 
+  width: 4000px; 
   height: 3000px;
   position: relative;
 }
@@ -128,3 +128,76 @@ body {
   }
 }
   */
+
+  .fulltext-overlay {
+  position: fixed;
+  inset: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+}
+
+.fulltext-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.fulltext-box {
+    border: 1px solid black;
+  width: 85vw;
+  height: 75vh;
+text-indent: 30px;
+  background: white;
+padding: 50px;
+  overflow-y: auto;
+  position: relative;
+
+  font-family: "Chivo Mono";
+  font-size: 20px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#landing {
+  position: fixed;
+  inset: 0;
+  background: black;
+  color: white;
+  display: flex;
+padding: 50px;
+
+  opacity: 1;
+  transition: opacity 0.6s ease;
+}
+
+#landing.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.landing-inner {
+  text-align: left;
+  font-family: "Chivo Mono";
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+h1{
+  font-family: "Almendra Display";
+  font-size: 80px;
+}
