@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Project2/Assignment1/assignment1.css">
+    <title>1 INPUT 1 OUTPUT TEMPLATE</title>
+    <link rel="stylesheet" href="/InteractionStudio/Project2/Assignment1/assignment1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="intro">
+<h1>Blinkie Fortune Teller</h1> 
+<p>enter a letter for a blinkie!</p>
+</div>
+    <!-- INPUT FIELD FOR 1 CHARACTER -->
+    <input type="text" id="charInput" maxlength="1">
+
+    <!-- BUTTON TO DISPLAY IMAGE -->
+    <button onclick="displayImage()" id="submitButton">tell me my fate!</button>
+
+    <!-- IMAGE TO DISPLAY -->
+    <img id="displayedImage" src="" alt="Displayed Image">
+
+
+    <!-- Image Display Script Below -->
+    <script>
+        // Array of images
+        // DIRECTIONS: UPDATE THE URLS WITH THE RELATIVE LINKS OF YOUR IMAGES
+        const images = [
+            "https://adriansblinkiecollection.neocities.org/z44.gif?text=A", //A
+            "https://adriansblinkiecollection.neocities.org/v98.gif?text=B", //B
+            "https://adriansblinkiecollection.neocities.org/c5.gif?text=C", //C
+            "https://adriansblinkiecollection.neocities.org/a62.gif?text=D", //D
+            "https://adriansblinkiecollection.neocities.org/z5.gif?text=E", //E
+            "https://adriansblinkiecollection.neocities.org/x34.gif?text=F", //F
+            "https://adriansblinkiecollection.neocities.org/v52.gif?text=G", //G
+            "https://adriansblinkiecollection.neocities.org/v71.gif?text=H", //H
+            "https://adriansblinkiecollection.neocities.org/d6.gif?text=I", //I
+            "https://adriansblinkiecollection.neocities.org/a65.gif?text=J", //J
+            "https://adriansblinkiecollection.neocities.org/10.gif?text=K", //K
+            "https://adriansblinkiecollection.neocities.org/u14.gif?text=L", //L
+            "https://adriansblinkiecollection.neocities.org/h44.gif?text=M", //M
+            "https://adriansblinkiecollection.neocities.org/g38.gif?text=N", //N
+            "https://adriansblinkiecollection.neocities.org/f40.gif?text=O", //O
+            "https://adriansblinkiecollection.neocities.org/v94.gif?text=P", //P
+            "https://adriansblinkiecollection.neocities.org/e84.gif?text=Q", //Q
+            "https://adriansblinkiecollection.neocities.org/e14.gif?text=R", //R
+            "https://adriansblinkiecollection.neocities.org/a85.gif?text=S", //S
+            "https://adriansblinkiecollection.neocities.org/z5.gif?text=T", //T
+            "https://adriansblinkiecollection.neocities.org/27.gif?text=U", //U
+            "https://adriansblinkiecollection.neocities.org/z31.gif?text=V", //V
+            "https://adriansblinkiecollection.neocities.org/x31.gif?text=W", //W
+            "https://adriansblinkiecollection.neocities.org/m11.gif?text=X", //X
+            "https://adriansblinkiecollection.neocities.org/q11.gif?text=Y", //Y
+            "https://adriansblinkiecollection.neocities.org/x2.gif?text=Z"  //Z
+        ];
+
+        function displayImage() {
+            const input = document.getElementById("charInput").value.toUpperCase();
+            const imgElement = document.getElementById("displayedImage");
+
+            // Assign an image based on character (A-Z)
+            const index = input.charCodeAt(0) - 65; // 'A' is 65 in ASCII
+            if (index >= 0 && index < images.length) {
+                imgElement.src = images[index];
+                imgElement.style.display = "block";
+            } else {
+                /*
+                alert("Please enter a letter between A and Z.");
+                imgElement.style.display = "none";
+                */
+
+                // IF INVALID INPUT IS ENTERED, DISPLAY ALTERNATE IMAGE
+                imgElement.src = "https://adriansblinkiecollection.neocities.org/buttons/d6.gif"
+                imgElement.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+</html>

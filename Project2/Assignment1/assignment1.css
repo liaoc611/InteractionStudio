@@ -1,0 +1,85 @@
+body{
+background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/037c5a4d-07ed-4035-86ae-773cc21a2750/d14p1ww-270b4199-9920-4bb9-91d5-13e27d5662fd.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8wMzdjNWE0ZC0wN2VkLTQwMzUtODZhZS03NzNjYzIxYTI3NTAvZDE0cDF3dy0yNzBiNDE5OS05OTIwLTRiYjktOTFkNS0xM2UyN2Q1NjYyZmQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1B3vOKvpCfTEJRuw0YWNpP3RkGE9FtnV67bVfy7Uu_4);
+background-size: cover;
+height: 100%;
+display: grid;
+margin: 100px;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.intro {
+text-align: center;
+ grid-column: 2 / span 2;
+}
+
+/* Oxygen Chrome - From Cursors-4U.com */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/oxygen-chrome-ccbed8ca-32.webp') 32 32, auto !important;
+}
+
+
+h1{
+font-size: 80px;
+font-family: "Monsieur La Doulaise";
+line-height: 1.0;
+margin-bottom: 0em;
+color: lightblue;
+text-shadow: 0 0 10px lightcoral;
+}
+
+p{
+font-family: "Mountains of Christmas";
+margin-top: 0px;
+font-size: 25px;
+font-weight: 400;
+color: lightblue;
+text-shadow: 0 0 10px lightcoral;
+}
+
+/* STYLE FOR THE INPUT FIELD */
+#charInput {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    align-content: end;
+    height: 40px;
+}
+
+/* STYLE FOR THE SUBMIT BUTTON */
+#submitButton {
+    font-family: "Mountains of Christmas";
+    font-weight: 400;
+    font-size: 25px;
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+    align-content: start;
+    height: 45px;
+}
+
+/* STYLE FOR THE IMAGE */
+#displayedImage {
+display: none; /* This line is mandatory */
+grid-column: 2 / span 2;
+place-items: center;
+height: 40px;
+justify-items: center; 
+margin: auto;
+}
+
+.monsieur-la-doulaise-regular {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mountains-of-christmas-regular {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mountains-of-christmas-bold {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 700;
+  font-style: normal;
+}
