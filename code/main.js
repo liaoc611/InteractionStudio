@@ -32,7 +32,7 @@ sharpening—what I am going to gouge? </p>
   2:  { type:'art',  title:'Surrogate Body', html:`<img style="width:142px;height:auto" src="/InteractionStudio/code/assets/surrogate-body.jpg">` },
   3:  { type:'song', title:'エロティック', html:`
 <audio id="myAudio">
-  <source src="/InteractionStudio/code/InteractionStudio/code/assets/Erotic.mp3" type="audio/mp3">
+  <source src="/InteractionStudio/code/assets/Erotic.mp3" type="audio/mp3">
 </audio>
 <img src="/InteractionStudio/code/assets/erotic-cover.jpeg" alt="Play Music" onclick="document.getElementById('myAudio').play()" style="cursor:pointer; width:100px; ">
 ` },
