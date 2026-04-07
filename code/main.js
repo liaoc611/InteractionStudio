@@ -26,22 +26,22 @@ sharpening—what I am going to gouge? </p>
   inline: {
     type: 'Photo',
     title: 'All Over',
-    html: `<img src="/assets/Allover.JPG" style="width: 142px; height:auto;">`
+    html: `<img src="/InteractionStudio/code/assets/Allover.JPG" style="width: 142px; height:auto;">`
   },
   1:  { type:'playlist', title:'遺', html:`<p style="font-family:monospace;font-size:10px;color:#333;padding:10px;">河流<br><em>蛙池</em><br><br>Love Me More<br><em>Mitski</em><br><br>Hentai<br><em>Rosalia</em><br><br>超度我<br><em>福祿壽</em><br><br>one last time, please (demo)<br><em>dodie</em><br><br>Dawn in the Adan<br><em>青葉市子</em></p>` },
-  2:  { type:'art',  title:'Surrogate Body', html:`<img style="width:142px;height:auto" src="/assets/surrogate-body.jpg">` },
+  2:  { type:'art',  title:'Surrogate Body', html:`<img style="width:142px;height:auto" src="/InteractionStudio/code/assets/surrogate-body.jpg">` },
   3:  { type:'song', title:'エロティック', html:`
 <audio id="myAudio">
-  <source src="/assets/Erotic.mp3" type="audio/mp3">
+  <source src="/InteractionStudio/code/InteractionStudio/code/assets/Erotic.mp3" type="audio/mp3">
 </audio>
-<img src="/assets/erotic-cover.jpeg" alt="Play Music" onclick="document.getElementById('myAudio').play()" style="cursor:pointer; width:100px; ">
+<img src="/InteractionStudio/code/assets/erotic-cover.jpeg" alt="Play Music" onclick="document.getElementById('myAudio').play()" style="cursor:pointer; width:100px; ">
 ` },
   4:  { type:'excerpt', title:'Voyeurism', html:`<p style="font-family:monospace;font-size:10px;color:#333;padding:10px;">When i was walking home today, there was this guy who i came across on the way back to the dorm from trader joe’s, and he was quite well dressed in a simplistic way, cross-body bag and all, I’m very attracted to this, and he has lightly curled hair. I was sort of trying to– I don’t know, I had the sense that I wanted him to think of my presence as a kind of movie scene serendipitous meeting, which I am assuming… he was too lost in his own world to notice. I think he had earbuds in and it made me wonder what he was listening to, if it could somehow match the rhythm of my step so everything seemed beautifully aligned in a moment of divine intervention… or something. Isn't it pathetic? So instead of being well tonight I’m going to turn to writing and contemplation.</p>` },
   5:  { type:'excerpt',  title:'苏州河', html:`<p style="font-family:monospace;font-size:10px;color:#333;padding:10px;">  我再问她，那上海呢？上海也会变得我认不出吗？
   <br><br>你出生在这座城市，长大在这座城市，但你又有多了解这里？再过两年，你还会遇到很多人。你会记住很多新的地方。有那么几个月，你会以为自己真正属于上海。你会以为你已经把一座城市归为了自己的领地。但在你要离开上海前，你会发现自己正处于一个悬崖一样的境地。在一段很短的时间里，你熟悉的一切都消失了。Playground转型了，Elevator关了，Heim关了，Red Bar也要关了。法诺不会关，但那里的厨房做不了Red Bar的烤鸡，上海最好吃的烤鸡。连Abyss，Abyss或许也要关掉。油罐那里的码头，你在滨江那么多个夜晚的记忆，要再施工。无论如何，你不会再有机会和你的朋友跳到黄浦江岸边凌空的石台上吹江风。在毕业那天，你会意识到，你已经和很多人见完了最后一面，但你以为上海是永恒的，其实上海也马上要消失了。很多人会离开上海，有人或许只是搬到青浦，但也有人，在你来得及反应之前，就已经在珠海了。你留在了上海，但上海要离开你。七年后，当你从那个更加危险的城市回到这里，或许外滩的景观不会有任何变化，但你知道，在这的皮囊之下，已经涌入了太多新血液，替换掉那些死去的细胞，就像过去七年在你身体上发生的一切。你以为你是这座城市的人吗？其实你是一座旧城的遗物。这里发生过的一切死亡都会堆砌在你的身体里，把你变成一座巨大，笨重的坟墓，就像现在的你一样。
 <br><br><em>Edouard Ji</em></p>
   ` },
-  6:  { type:'song', title:'Rêverie, L. 68', html:`<audio controls style="width: 140px; height: 50px;" src="/assets/debussy.mp3" type="audio/mp3"></audio>` },
+  6:  { type:'song', title:'Rêverie, L. 68', html:`<audio controls style="width: 140px; height: 50px;" src="/InteractionStudio/code/assets/debussy.mp3" type="audio/mp3"></audio>` },
   7:  { type:'excerpt',  title:'A Conversation, in Memoriam',          html:`<div style="font-family:monospace;font-size:10px;color:#333;padding:10px;">
 <p style="margin-bottom: 10px;">B: Everything is zero. There’s nothing left. <br> </p>
 <p style="margin-bottom: 10px;">[A doesn’t respond.] <br> </p>
@@ -61,8 +61,8 @@ sharpening—what I am going to gouge? </p>
 `<p style="font-family:monospace;font-size:10px;color:#333;padding:8px;">The apparition of these faces in the crowd:
 <br> Petals on a wet, black bough.
 <br><br><em>Ezra Pound</em></p>` },
-  10: { type:'art',  title:'digicam-utopia', desc:'Generative SVG landscape',      html:`<img src="/assets/digicam-utopia.png" style="width: 140px; height:auto;">` },
-  11: { type:'photo', title:'Genesis',   html:`<img src="/assets/genesis.Jpeg" style="width: 142px; height:auto;">` },
+  10: { type:'art',  title:'digicam-utopia', desc:'Generative SVG landscape',      html:`<img src="/InteractionStudio/code/assets/digicam-utopia.png" style="width: 140px; height:auto;">` },
+  11: { type:'photo', title:'Genesis',   html:`<img src="/InteractionStudio/code/assets/genesis.Jpeg" style="width: 142px; height:auto;">` },
 };
 
 function adSrcdoc(label) {
@@ -110,7 +110,7 @@ function bannerAdSrcdoc() {
     html,body{width:100%;height:100vh;overflow:hidden;}
     body{
     letter-spacing: 1.2;
-    background-color: white; background-image: url(/assets/animegirl.png); background-size:300px; background-repeat: no-repeat; background-position:90% 20%; font-family:Arial,sans-serif;
+    background-color: white; background-image: url(/InteractionStudio/code/assets/animegirl.png); background-size:300px; background-repeat: no-repeat; background-position:90% 20%; font-family:Arial,sans-serif;
       display:flex;align-items:center;justify-content:space-between;
       padding:0 24px;}
     .headline{font-size:20px;font-weight:bold;font-family:'Arial Black',Arial,sans-serif;color:orange;
@@ -201,7 +201,7 @@ function closePopup() { document.getElementById('popup-overlay').classList.remov
 frame.srcdoc = `<!DOCTYPE html><html><head><style>
   *{margin:0;padding:0;box-sizing:border-box;}
   html,body{width:100%;height:100vh;overflow:hidden;}
-  body{background-image:url(/assets/hands.jpeg);
+  body{background-image:url(/InteractionStudio/code/assets/hands.jpeg);
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
